@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "google-staticmap"
+version = "0.1.0"
+description = ""
+authors = ["MDiRocco <marc.dirocco@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.32.3"
+pandas = "^2.2.3"
+opencv-python = "^4.11.0.86"
+pillow = "^11.1.0"
+numpy = "^2.2.3"
+gdal = "3.8.4"
+setuptools = "^76.0.0"
+wheel = "^0.45.1"
+geopandas = "^1.0.1"
+rasterio = "^1.4.3"
+wemake-python-styleguide = "^1.0.0"
+pyyaml = "^6.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

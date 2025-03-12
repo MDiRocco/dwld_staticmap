@@ -1,0 +1,17 @@
+points_folder: 'path/folder'
+output_folder : 'output'
+corridors_data:
+    'central':
+        'csv_phr': 'path/file.csv'
+        'csv_spot': 'path/file.csv'
+        'output': 'path/folder'
+    'lapsset':
+        'csv_phr': 'path/file.csv'
+        'csv_spot': 'path/file.csv'
+        'output': 'path/folder'
+    'northern':
+        'csv_phr': 'path/file.csv'
+        'csv_spot': 'path/file.csv'
+        'output': 'path/folder'
+
+
