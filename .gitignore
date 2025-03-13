@@ -163,6 +163,6 @@ cython_debug/
 
 #Data file and folders
 system_folder/EXPORT*.xlsx
-config/*.yaml
+
 .~lock.*
 

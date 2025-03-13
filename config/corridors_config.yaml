@@ -1,0 +1,6 @@
+output_folder: 'path/output/folder'
+
+corridor_list:
+    lapsset: 'path/file.geojson'
+    central: 'path/file.geojson'
+    northern: 'path/file.geojson'
