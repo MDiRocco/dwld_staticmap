@@ -1,4 +1,4 @@
-output_folder: 'output'
+output_folder: 'path/output/folder'
 
 corridor_list:
     lapsset: 'path/file.geojson'

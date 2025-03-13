@@ -1,17 +1,17 @@
 points_folder: 'path/folder'
-output_folder : 'output'
+output_folder : 'path/output/folder'
 corridors_data:
     'central':
-        'csv_phr': 'path/file.csv'
-        'csv_spot': 'path/file.csv'
-        'output': 'path/folder'
+        'csv_phr': 'file.csv'
+        'csv_spot': 'file.csv'
+        'output': 'path/output/folder'
     'lapsset':
-        'csv_phr': 'path/file.csv'
-        'csv_spot': 'path/file.csv'
-        'output': 'path/folder'
+        'csv_phr': 'file.csv'
+        'csv_spot': 'file.csv'
+        'output': 'path/output/folder'
     'northern':
-        'csv_phr': 'path/file.csv'
-        'csv_spot': 'path/file.csv'
-        'output': 'path/folder'
+        'csv_phr': 'file.csv'
+        'csv_spot': 'file.csv'
+        'output': 'path/output/folder'
 
 
