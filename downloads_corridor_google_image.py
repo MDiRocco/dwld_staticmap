@@ -22,7 +22,7 @@ def sample_points(geometry: shapely.geometry.multilinestring.MultiLineString, st
     return points
 
 
-def main():
+def run():
     corridors_config_file = Path(__file__).parent / 'config' / 'corridors_config.yaml'
     with open(corridors_config_file, 'r') as in_file:
         corridors_config = yaml.safe_load(in_file)
@@ -69,7 +69,3 @@ def main():
                     tif_image = tiff_path / f'_{lat}_{lon}.tif'
                 break
             break
-
-
-if __name__ == "__main__":
-    main()

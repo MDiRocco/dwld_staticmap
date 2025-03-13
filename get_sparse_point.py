@@ -5,7 +5,7 @@ import yaml
 from downloads_staticmap_google import download_satellite_image
 
 
-def extract_and_download() -> list:
+def run() -> list:
     sparse_points_config_file = Path(__file__).parent / 'config' / 'sparse_points_config.yaml'
     with open(sparse_points_config_file, 'r') as in_file:
         sparse_points_config = yaml.safe_load(in_file)
@@ -37,7 +37,3 @@ def extract_and_download() -> list:
                 output_path=output_path / f'{lat}_{lon}.png',
                 test=0,
             )
-
-
-if __name__ == '__main__':
-    extract_and_download()

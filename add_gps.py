@@ -48,7 +48,7 @@ def jpeg_to_geotiff(jpeg_path, tiff_path, center_lat, center_lon, area_extent):
     print(f"File TIFF salvato: {tiff_path}")
 
 
-def main():
+def run():
     base_path = Path(__file__).parent
 
     add_gps_config_file = base_path / 'config' / 'add_gps_config.yaml'
@@ -72,7 +72,3 @@ def main():
                 center_lon = float(input_file.stem.split('_')[1])
                 output_file = tif_folder / (image.replace('.png', '.tif'))
                 jpeg_to_geotiff(input_file, output_file, center_lat=center_lat, center_lon=center_lon, area_extent=area_extent)
-
-
-if __name__ == '__main__':
-    main()
